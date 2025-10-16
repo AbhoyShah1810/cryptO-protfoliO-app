@@ -11,7 +11,11 @@ import SwiftUI
 struct cryptOprotfoliOApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                    Homeiew()
+                        .navigationBarHidden(true)
+            }
         }
     }
 }
+
